@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Fibonacci from './components/Fibonacci';
 import Search from './components/Search';
+import Animation from './components/Animation';
 
 interface AppProps {
   id: number;
@@ -11,6 +12,7 @@ interface AppProps {
 const pages: AppProps[] = [
   { id: 1, title: 'Fibonacci', component: <Fibonacci /> },
   { id: 2, title: 'Search', component: <Search /> },
+  {id: 3, title: 'Animation', component: <Animation />}
 ];
 
 function App(): JSX.Element {
