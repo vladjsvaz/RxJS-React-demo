@@ -21,13 +21,24 @@ const Animation = () => {
     }, []);
 
     return (
-        <div className="prose h-20 relative">
+        <div className="prose h-20">
+            <h1>Animation</h1>
+
+            <h3>Explanation</h3>
+            <p>This example uses animation frames to control the position of an element.</p>
+
+            <h3>Objective</h3>
+            <p>Demonstrate that Observables can be created and transformed from a variety of sources, with different goals in mind.</p>
+
+            <h3>Example</h3>
+
+            <div className="relative h-20">
             <div className="rounded-full w-3 h-3 bg-slate-400" 
                 style={{
                     position: "absolute", 
                     top: `${ballPos[1]}px`, 
                     left: `${ballPos[0]}px`
-                }}></div>
+                }}></div></div>
         </div >
     );
 };
