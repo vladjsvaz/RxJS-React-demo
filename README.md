@@ -1,6 +1,6 @@
 # RxJS-React-demo
 
-A application with some examples about how to use RxJS and React.
+An application with some examples about how to use RxJS and React.
 
 Clone this repo, then install dependencies:
 
